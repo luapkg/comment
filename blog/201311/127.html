@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN" xml:lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+#NewsChannel {overflow:hidden;}
+.ListPanel {float:left;width:730px;}
+.ListRight {float:right; width:250px;}
+.ListPanel .List {margin:10px 5px;}
+.ListPanel .List a {text-decoration:none;}
+.NewsBody {float:left; width:680px;}
+.NewsRight {float:right; width:300px;}
+.News .NewsEntity {background:#fff;border:1px solid #ccc;padding:15px 10px 10px 10px;-moz-box-shadow: 0 1px 3px rgba(198,198,198,0.5);-webkit-box-shadow: 0 1px 3px rgba(198,198,198,0.5);box-shadow: 0 1px 3px rgba(198,198,198,0.5);}
+.News h1.OSCTitle {font-size:18pt;}
+.News .PubDate {margin:15px 0 0px 0;color:#666;}
+.News .NewsContent {margin:10px 0;font-size:10.5pt;overflow: hidden;}
+.News .NewsContent #NewsPic {float:right;margin:0 0 10px 10px;border:1px solid #ccc;background:#f6f6f6;padding:2px;}
+.News .NewsLinks {font-weight: bold;color: #A00;margin-bottom: 10px;line-height:30px;font-size:10pt;}
+.News .copyright {
+	background:#efe;
+	text-align:left;
+	margin:20px 0;
+	padding:3px 0 3px 10px;
+	color:#333;
+	font-size:9pt;
+	line-height:22px;
+	border-left:5px solid #40AA53;
+}
+.News .NewsPrevAndNext {line-height:30px;}
+.News .NewsPrevAndNext span {font-weight:normal;font-size:8pt;color:#666;margin-left:10px;}
+
+.News .RelatedThreads {padding:10px 0 0 10px;}
+.News .RelatedThreads ul {margin:10px 0 20px 3px;line-height:22px;}
+.News .RelatedThreads ul li {background:url('/img/a2.gif') no-repeat left center;padding-left:12px;}
+.News .RelatedThreads ul li .date {font-size:8pt;margin-left:10px;color:#666;-webkit-text-size-adjust:none;}
+
+.News .RelatedNews {padding:10px 0 0 0;}
+.News .RelatedNews ul {margin:10px 0 20px 3px;line-height:22px;}
+.News .RelatedNews ul li {background:url('/img/a3.gif') no-repeat left center;padding-left:12px;}
+.News .RelatedNews ul li .date {font-size:8pt;margin-left:10px;color:#666;-webkit-text-size-adjust:none;}
+
+/* 评论相关 */
+.Comments {margin: 20px 0 0 0;}
+.Comments h2 {font-size:11pt;background:#40AA53;color:#fff;line-height:24px;padding:0 5px;}
+.Comments h2 .more {float:right;font-weight:normal;font-size:9pt;color:#fff;}
+.Comments ul {list-style-type:none;padding:0 10px 0 0;}
+.Comments ul li {margin:10px 0;}
+.Comments ul li span.user {background:url('../img/u.gif') no-repeat center left;padding-left:18px;}
+.Comments ul li span.time {font-style:italic;margin-left:10px;}
+.Comments ul li a.delete {font-style:italic;margin-left:10px;}
+.Comments ul li span.content {display:block;margin:10px 0 5px 10px;}
+
+.Comments ul li.row_0 {background:#f6f6f6;}
+.Comments ul li .portrait {width:45px;vertical-align:top;}
+.Comments ul li .portrait img {width:32px;height:32px;border:1px solid #eee;padding:2px;background:#fff;}
+.Comments ul li .portrait a:hover img {border:1px solid #40AA53;}
+.Comments ul li .body {vertical-align:top;font-size:9pt;word-break: break-all;}
+.Comments ul li .body .r_title {font-size:9pt;color:#888;}
+.Comments ul li .body .r_content {margin:5px 0 0 0;color:#00A;overflow: hidden;}
+.Comments .pager {margin:20px 0 10px 5px;}
+.Comments .pager li {margin-right:2px;}
+
+.CommentForm {margin:0 5px;padding-left:45px;}
+.CommentForm form {margin: 20px 0 20px 0; padding:0;}
+.CommentForm form textarea {padding:5px;border:1px solid #999;margin:5px 0}
+.CommentForm form input.SUBMIT {font-size:14px;height:28px;line-height:26px;padding:0 5px;}
+.CommentForm form input.TEXT {padding:2px;border:1px solid #999;}
+
+/* paging */
+.pager {
+	overflow: hidden;
+}
+.pager li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+.pager li a {
+	font-family: Courier New, Arial;
+	font-size: 12pt;
+	color: #58595b;
+	background-color: #f2f2f2;
+	display: block;
+	text-align: center;
+	padding: 3px 6px;
+	text-decoration: none;
+}
+.pager li a:hover {
+	color: #000;
+}
+.pager li.prev a {
+	background-color: #ccc;
+	color: #666;
+}
+.pager li.next a {
+	background-color: #ccc;
+	color: #666;
+}
+.pager li.current a {
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+	background: #58595b;
+}
+</style>
+</head>
+<body>
+
+<div id="OSC_Screen" style="margin-left: 200px;">
+	<div id="OSC_Content" class="CenterDiv">
+
+<div id="NewsChannel" class="Channel">
+<div class="NewsBody">
+	<div class="News">
+		<div class="NewsEntity">
+		<!-- google_ad_section_start -->
+		<h1 class="OSCTitle">软件升级失败致使旧金山捷运罢工</h1>
+		
+		<div class="NewsToolbar">
+						<style type="text/css">
+
+</style>
+		</div>
+		<div id="OSChina_News_46233" class="Body NewsContent TextContent">
+			<p style="font-weight:bold;color:#A00;margin-bottom:10px;"></p>
+						<p>旧金山湾区捷运系统（BART）周五早晨大罢工，原因是软件升级导致计算机发生故障。 BART发言人称，这本来是一次普通的系统更新，他们直到午夜才意识到出现问题，中心计算机罢工了。捷运系统在失去计算机之后不得不转到手工作业，结果就 是湾区繁忙的周五早晨出现了严重交通堵塞。工程师在周四早晨给一台服务器更新了配置，但更新中的一个故障悄悄扩散到了整个计算机系统，最终导致了灾难发 生。数十名工程师和技术人员熬夜修理计算机系统，但到凌晨捷运系统准备对外开放时候计算机仍然没能上线，BART最后不得不警告乘客寻找替代交通工具。.</p> 
+		</div>
+		</div>
+<!--
+<div class="Comments" id="userComments">
+        	<h2>
+				<a name="comments" href="#" class="more">回到顶部</a>
+				<a href="#CommentForm" class="more" style="margin-right:10px;color:#ff3;">发表评论</a>
+				网友评论，共 28 条
+			</h2>
+	<ul>
+<li id="cmt_46233_54100_277051035" class="row_1">
+		<table width="100%"><tbody><tr>
+	<td class="portrait">
+		<a href="" name="rpl_277051035" class="ShowUserOutline"><img src="http://www.oschina.net/img/portrait.gif"></a>
+	</td>
+	<td class="body">
+		<div class="r_title">
+			1楼：<b>鉴客</b>  发表于 2013-11-24 09:06
+		</div>
+		<div class="r_content TextContent">前十名中，开源数据库占 4 席，继续努力！</div>
+		<div id="inline_reply_of_46233_54100_277051035" class="inline_reply"></div>
+    </td></tr></tbody></table>
+</li>
+        	        	
+</ul>
+		<ul class="pager">
+			<li class="page current"><a href="?p=1">1</a></li>
+			<li class="page"><a href="?p=2#comments">2</a></li>
+			<li class="page next"><a href="?p=2#comments">&gt;</a></li>
+		</ul>
+</div>
+-->
+<!--# include virtual="/blog/list_comment?uri=$request_uri" -->			
+			
+        <div class="CommentForm">
+            <a name="CommentForm"></a>
+            <form id="form_comment" action="/action/news/comment?news=46233" method="POST">
+              <input type="hidden" name="guest" value="1">
+			  <table>
+			  <tbody><tr><th width="100">网名：</th><td><input id="txt_name" type="text" name="name" size="30" class="TEXT" maxlength="20"> <span>(必填)</span></td></tr>
+        	  <tr><th>邮箱：</th><td><input id="txt_email" type="text" name="email" size="30" class="TEXT" maxlength="40"> <span>(必填，不公开)</span></td></tr>
+			  <tr><th>网址：</th><td><input id="txt_url" type="text" name="url" size="40" class="TEXT" maxlength="100"></td></tr>
+			  </tbody></table>
+        	          	  <textarea name="content" style="width:450px;height:100px;" onkeydown="if((event.metaKey || event.ctrlKey)&amp;&amp;event.keyCode==13){$('#form_comment').submit();}"></textarea><br>
+			  			  
+			 <input type="submit" value="发表评论" id="btn_comment" class="SUBMIT rndbutton">
+			              </form>
+			
+        </div>
+			</div>
+</div>
+
+</div>
+</script><div class="clear"></div></div>
+
+</div>
+
+</body></html>
