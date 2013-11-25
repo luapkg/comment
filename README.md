@@ -3,7 +3,7 @@ comment
 
 使用ngin +  lua 实现的评论模块。
 
-
+http://blog.csdn.net/freewebsys/article/details/16944917
 
 前言：
 参考了下ngx_lua，Node.js，PHP三个进行的压测对比。
@@ -91,6 +91,7 @@ mysql> show variables like 'open%';
 1 row in set (0.00 sec)
 
 数据库表
+<div>
 CREATE TABLE `comment` (
   `id` int(11) NOT NULL auto_increment COMMENT '主键',
   `item_id` int(11) NOT NULL COMMENT '评论项id',
@@ -102,6 +103,7 @@ CREATE TABLE `comment` (
 PARTITION BY HASH (`item_id`)
 PARTITIONS 1024;
 
+</div>
 插入数据
 insert into comment(`item_id`,content,create_time) values(127,CONCAT("conent test ",RAND()*1000),now());
 
