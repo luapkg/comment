@@ -1,12 +1,8 @@
 <div class="main">
-                    <link href="http://static.blog.csdn.net/css/comment1.css" type="text/css" rel="stylesheet">
-<link href="http://static.blog.csdn.net/css/style1.css" type="text/css" rel="stylesheet">
-<div id="article_details" class="details">
-    
 
-    
-<div class="tag2box"><a href="http://www.csdn.net/tag/nginx" target="_blank">nginx</a><a href="http://www.csdn.net/tag/lua" target="_blank">lua</a></div>
-
+<a  href='http://blog.csdn.net/freewebsys/article/details/16944917' target='_blank'>
+博客文字
+</a>
     
 <div style="clear:both"></div><div style="border:solid 1px #ccc; background:#eee; float:left; min-width:200px;padding:4px 10px;"><p style="text-align:right;margin:0;"><span style="float:left;">目录<a href="#" title="系统根据文章中H1到H6标签自动生成文章目录">(?)</a></span><a href="#" onclick="javascript:return openct(this);" title="展开">[+]</a></p><ol style="display:none;margin-left:14px;padding-left:14px;line-height:160%;"><li><a href="#t0">前言</a></li><li><a href="#t1">总体设计思路</a></li><li><a href="#t2">主要代码</a></li><li><a href="#t3">nginx配置</a></li><li><a href="#t4">mysql修改打开文件数</a></li></ol></div><div style="clear:both"></div><div id="article_content" class="article_content">
 
